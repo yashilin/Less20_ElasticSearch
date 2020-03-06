@@ -99,6 +99,7 @@ messages-per-sec:         0   total-messages:       18899     last-message: 2020
 Почему для wikipedianobot интерфейс показывает также consumer-* метрики?
 
 Ответ:  Потому, что наш стрим сделан на основании WIKIPEDIANOBOT и является для него потребителем.
+У wikipedianobot есть consumer WIKIPEDIANOBOT-consumer
 
 
 # 4. Добавьте данные из стрима WIKILANG в ElasticSearch
